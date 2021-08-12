@@ -1,0 +1,52 @@
+.container {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  display: inline-flex;
+}
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4.5rem;
+  color: #4ecca3;
+  padding: 30px;
+}
+.cards_grid {
+  display: grid;
+  margin-left: 40px;
+  width: fit-content;
+  grid-template-columns: 130px 130px 130px 130px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  background-color: #000000;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 10px;
+}
+
+.details {
+  margin-left: 260px;
+}
+.details p {
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4.5rem;
+}
+.cards {
+  background-color: black;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+img {
+  width: 130px;
+  border-radius: 25px;
+}
